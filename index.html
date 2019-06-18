@@ -1,22 +1,29 @@
 <!DOCTYPE html>
-<html
-  <head id="Head1" runat="server">
-    <title>Array-Looping</title>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
+    <title>Beep! Boop! I'm Sorry Dave.</title>
   </head>
   <body>
-    <p id="demo"></p>
-<br>
-    <form id="form1" runat="server">
-    </form>
+    <div class="container">
+      <h1>What's Your Favorite Number Dave?</h1>
 
+      <form id="my-Answer">
+        <div class="form-group">
+          <label for="num">Please enter a lucky number:</label>
+          <input id="num" type="text">
+        </div>
 
-<br>
+        <button type="submit" class="btn">Let's See!</button>
+        <p></p>
+      </form>
+<p></p>
+      <div id="result">
 
-
-
-
-
+      </div>
+    </div>
   </body>
 </html>
